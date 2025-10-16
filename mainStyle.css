@@ -2,11 +2,8 @@
 
  body
  {
-    background-color: rgb(4, 120, 222);
- }
- h1
- {
+    background-color: rgb(74, 163, 241);
+    color: rgb(31,31,31);
+    font-family: 'Onest', monospace;
     text-align: center;
-    font-family: 'Onest';
-    
  }
