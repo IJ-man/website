@@ -1,9 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 
- body
+body
  {
     background-color: rgb(74, 163, 241);
     color: rgb(31,31,31);
     font-family: 'Onest', monospace;
     text-align: center;
  }
+
+h1
+ {
+   font-size: 15;
+   font-weight: bolder;
+ }
+
+p1
+ {
+   font-size: 12;
+   font-weight: normal;
+ }
+
+.button
+{
+  display: block;
+  background-color: rgb(55, 126, 84);
+  font-family: 'Onest', monospace;
+  font-weight: medium;
+  border: 2.5px solid rgb(31,31,31);
+  border-radius: 10px;
+  height: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+.button:hover
+{
+  cursor: pointer;
+  box-shadow: 1px 10 px 98px -4px rgb(46, 106, 71)
+}
